@@ -20,10 +20,10 @@ function getRandomInt() {
   //saca si es par o impar
   if (numRandom % 2 === 0) {
     console.log("Es un nº par");
-    body.classList.toggle("happy");
+    body.classList.toggle("faceOne");
   } else {
     console.log("Es un nº impar");
-    body.classList.toggle("bad");
+    body.classList.toggle("otherFace");
   }
 }
 btn.addEventListener("click", getRandomInt);
